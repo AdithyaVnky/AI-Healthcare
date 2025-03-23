@@ -1,0 +1,103 @@
+body {
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1e2a55;
+    justify-items: center;
+}
+header {
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+    height: 80px;
+}
+.logo h1 {
+    margin: 0;
+    font-size: 40px;
+}
+.logo p {
+    margin: 10px;
+    font-size: 22px;
+}
+nav ul {
+    list-style: none;
+    padding: 20px;
+    text-align: center;
+    background: #222;
+    margin: 0;
+    width:900px;
+    border-radius: 40px;
+    transition:width 0.2s;
+    font-family: "Prompt", serif;
+    font-weight: 400;
+}
+nav ul:hover{
+    width:950px;
+}
+nav ul li {
+    display: inline;
+    padding: 15px;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+nav ul li a.active, nav ul li a:hover {
+    border-radius: 5px;
+}
+.login-container {
+    width: 600px;
+    margin: 200px auto;
+    padding: 20px;
+    border-radius: 25px;
+    background: rgba(255,255,255,0.3);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: width 0.2s;
+    justify-items: center;
+}
+
+.login-container:hover{
+    width:650px;
+}
+.login-container h2 {
+    margin-bottom: 20px;
+
+}
+.login-container input {
+    background: rgba(255,255,255,0.3);
+    width: 540px;
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-family: "Prompt", serif;
+    font-weight: 300;
+    font-style: normal; 
+    display: block;
+}
+.login-container button {
+    background: #d63384;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.login-container button:hover {
+    background: #c1256e;
+}
+
+.id-patient{
+    color: #fff;
+    box-shadow: ;
+    font-size: 23px;
+    font-family: "Prompt", serif;
+    font-weight: 400;
+    font-style: normal; 
+}
